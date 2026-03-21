@@ -32,7 +32,6 @@ export default class UserStudyEvaluatorAnswer {
     this.userDocId = userDocId ?? null
     this.lastUpdate = lastUpdate ?? null
     this.invited = invited ?? false
-    this.invited = invited ?? false
     this.hidden = hidden ?? false
     this.sessionNotes = [] // [{ text, timestamp, taskIndex, authorId }]
   }
